@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+ body {
+   margin: 0px;
+   padding: 0px;
+   font-size: 1.5em;
+   line-height: 1.5em;
+   text-align: center;
+   font-family: 'Encode Sans', sans-serif;
+ }
+ h1,h2,h3 {
+   margin: 0px;
+   padding: 0px;
+   font-weight: normal;
+ }
+ button {
+   margin: 0px;
+   padding: 0px;
+   border: none;
+   outline: none;
+   background-color: inherit;
+   font-family: inherit;
+   font-weight: bold;
+ }
+ header h1 {
+   color: white;
+   padding: 4px 0px;
+ }
+ .game-button {
+   height: 50vh;
+   width: 50%;
+   float: left;
+   cursor: pointer;
+ }
+ div#button-1 {
+   background-color: #355419;
+   border-right: 8px #1E1A1D solid;
+   border-bottom: 8px #1E1A1D solid;
+ }
+ div#button-1:hover {
+   background-color: #60992D;
+ }
+ div#button-2 {
+   background-color: #7B0828;
+   border-left: 8px #1E1A1D solid;
+   border-bottom: 8px #1E1A1D solid;
+ }
+ div#button-2:hover {
+   background-color: #C42017;
+ }
+ div#button-3 {
+   background-color: #027BCE;
+   border-right: 8px #1E1A1D solid;
+   border-top: 8px #1E1A1D solid;
+ }
+ div#button-3:hover{
+   background-color: #4BB3FD;
+ }
+ div#button-4 {
+   background-color: #DCC002;
+   border-left: 8px #1E1A1D solid;
+   border-top: 8px #1E1A1D solid;
+ }
+ div#button-4:hover {
+   background-color: #F3DB30;
+ }
+.panel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #1E1A1D;
+  height: 384px;
+  width: 384px;
+  border-radius: 50%;
+}
+.panel-console {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #1E1A1D;
+  height: 271px;
+  width: 271px;
+}
+.panel-console-control {
+  width: 100%;
+  height: 171px;
+  margin-top: 20px;
+}
+.screen {
+  width: 50%;
+  height: 36px;
+  background-color: #3C3C3C;
+  margin: auto;
+  color: white;
+}
+
+.buttons {
+  margin-top: 20px;
+  height: 115px;
+  width: 100%;
+}
+.btn {
+  width: 81px;
+  height: 40px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+#start {
+  background-color: #D0F4DE;
+}
+#strict {
+  background-color: #92140C;
+}
+.power-button {
+  clear: left;
+  height: 50px;
+  margin-top: 10px;
+}
+#power {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #92140C;
+  cursor: pointer;
+}
